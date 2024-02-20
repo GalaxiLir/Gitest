@@ -1,2 +1,2 @@
 #testing if i can push
-x=seq(1,10,100)
+x=seq(f=0,t=1,l=100)
