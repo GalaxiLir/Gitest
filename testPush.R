@@ -8,7 +8,7 @@ plot_function_contour <- function(x,y, Y) {
   
   # Create a 2D contour plot
   contour(x, y, Z, main = "Function Evaluated on X", xlab = "X", ylab = "Y", nlevels = 20, col = rainbow(20))
-  
+   
   # Optionally, you can add a color scale legend
   color.legend(x = "topright", legend = "Y", fill = rainbow(40), cex = 0.8)
   
